@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
-.clas{
-    color: #1b0e02;
+@theme {
+    --font-display: "Baloo 2", ui-rounded, system-ui, sans-serif;
+    --font-body: "Nunito", ui-sans-serif, system-ui, sans-serif;
+
+    --color-amber-50: #fff6e9;
+    --color-ink: #3d1c00;
+    --color-plum: #4a1466;
+}
+
+body {
+    font-family: var(--font-body);
+    min-height: 100vh;
+    background-image:
+        radial-gradient(circle at 15% 20%, rgba(229, 139, 255, 0.16), transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(255, 139, 139, 0.14), transparent 45%);
 }

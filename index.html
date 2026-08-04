@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/styles/output.css">
     <link rel="stylesheet" href="./src/styles/animations.css">
 </head>
-<body class="bg-amber-50">
+<body class="">
     <div class="py-4 px-8 flex flex-col items-center">
         
         <div class="w-full sm:size-[80%] md:size-[60%] lg:size-[40%] xl:size-[30%] block">
@@ -18,10 +18,12 @@
         <section class="w-full flex flex-col items-center">
             <img class="size-40 relative left-40 top-0.5 md:-left-20" src="./src/img/gif1.gif" alt="gif">
             <div class="flex flex-col items-center justify-center gap-4">
-                <img class="sm:size-[80%] md:size-[60%] rounded-2xl" id="catImage" src="https://cataas.com/cat" alt="Imagem bixano">
+                <img class="sm:size-[80%] md:size-[60%] rounded-2xl border-8 border-white shadow-2xl" id="catImage" src="https://cataas.com/cat" alt="Imagem bixano">
                 <div class="w-full">
                     <img class="catGif relative left-0 size-20" src="./src/img/gif2.gif" alt="gif">
-                    <p id="catFact" class="text-center">Clique no botão abaixo para gerar um fato sobre gatos.</p>
+                    <div class="rounded-2xl p-4 bg-white w-full shadow-2xl">
+                        <p id="catFact" class="text-center text-purple-800">Clique no botão abaixo para gerar um fato sobre gatos.</p>
+                    </div> 
                 </div>
                 <button id="next" class="bg-(--main-color) hover:bg-(--hover-color) active:bg-(--active-color) text-white font-bold px-4 py-1 cursor-pointer rounded-lg" style="--main-color:#E58BFF;--hover-color:#D367FF;--active-color:#BC13FF;">Próxima</button>
             </div>
