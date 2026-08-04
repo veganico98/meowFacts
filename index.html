@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Facts</title>
+    <link rel="stylesheet" href="./src/styles/output.css">
+    <link rel="stylesheet" href="./src/styles/animations.css">
+</head>
+<body class="bg-amber-50">
+    <div class="py-4 px-8 flex flex-col items-center">
+        
+        <div class="w-full sm:size-[80%] md:size-[60%] lg:size-[40%] xl:size-[30%] block">
+            <img id="logo" class="[filter:drop-shadow(6px_1px_0_var(--shadow-color))]" style="--shadow-color: #E58BFF" src="" alt="">
+        </div>
+        <div>
+        </div>
+        <section class="w-full flex flex-col items-center">
+            <img class="size-40 relative left-40 top-0.5 md:-left-20" src="./src/img/gif1.gif" alt="gif">
+            <div class="flex flex-col items-center justify-center gap-4">
+                <img class="sm:size-[80%] md:size-[60%] rounded-2xl" id="catImage" src="https://cataas.com/cat" alt="Imagem bixano">
+                <div class="w-full">
+                    <img class="catGif relative left-0 size-20" src="./src/img/gif2.gif" alt="gif">
+                    <p id="catFact" class="text-center">Clique no botão abaixo para gerar um fato sobre gatos.</p>
+                </div>
+                <button id="next" class="bg-(--main-color) hover:bg-(--hover-color) active:bg-(--active-color) text-white font-bold px-4 py-1 cursor-pointer rounded-lg" style="--main-color:#E58BFF;--hover-color:#D367FF;--active-color:#BC13FF;">Próxima</button>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script type="module" src="./src/js/script.js"></script>
+
+</html>

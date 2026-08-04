@@ -1,0 +1,25 @@
+/* .catGif {
+  animation: walk 10s linear infinite;
+}
+
+@keyframes walk {
+  0% {
+    transform: translateX(0) scaleX(1);
+  }
+
+  49.99% {
+    transform: translateX(calc(100vw - 100px)) scaleX(1);
+  }
+
+  50% {
+    transform: translateX(calc(100vw - 100px)) scaleX(-1);
+  }
+
+  99.99% {
+    transform: translateX(0) scaleX(-1);
+  }
+
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+} */

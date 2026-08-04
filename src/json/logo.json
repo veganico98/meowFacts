@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "color": "#3d1c00",
+        "hoverColor": "#2e1703",
+        "activeColor": "#1b0e02"
+
+    },
+    {
+        "id": "2",
+        "color": "#ff8b8b",
+        "hoverColor": "#e96767",
+        "activeColor": "#c05454"
+
+    },
+    {
+        "id": "3",
+        "color": "#E58BFF",
+        "hoverColor": "#D367FF",
+        "activeColor": "#BC13FF"
+    }
+]
