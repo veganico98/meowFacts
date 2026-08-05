@@ -4,37 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meow Facts</title>
+    <link rel="icon" href="./src/img/ico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/output.css">
     <link rel="stylesheet" href="./src/styles/animations.css">
 </head>
+
 <body class="relative overflow-x-hidden">
-    <img class="absolute size-160 -z-10" src="./src/img/bg.webp" alt="">
 
-    <div class="py-4 px-8 flex flex-col items-center">
-        <div class="w-full sm:size-[80%] md:size-[60%] lg:size-[40%] xl:size-[30%] block z-10">
-            <img id="logo" class="[filter:drop-shadow(6px_1px_0_var(--shadow-color))]" style="--shadow-color: #E58BFF" src="" alt="">
+    <img
+        class="absolute -z-10 size-160"
+        src="./src/img/bg.webp"
+        alt=""
+    >
+
+    <div class="flex flex-col items-center px-8 py-4">
+
+        <div class="z-10 block w-full sm:size-[80%] md:size-[60%] lg:size-[40%] xl:size-[30%]">
+            <img
+                id="logo"
+                class="[filter:drop-shadow(6px_1px_0_var(--shadow-color))]"
+                style="--shadow-color: #E58BFF"
+                src=""
+                alt=""
+            >
         </div>
-        <section class="w-full flex flex-col items-center">
-            <img class="size-40 relative left-30 top-0.5 md:-left-20" src="./src/img/gif1.gif" alt="gif">
-            <div class="flex flex-col items-center justify-center">
-                
-                <img class="sm:size-[80%] md:size-[60%] rounded-2xl border-8 border-white shadow-2xl" id="catImage" src="https://cataas.com/cat" alt="Imagem bixano">
 
-                <div class="flex flex-col gap-5 items-center justify-center">
-                    <div class="w-full relative">
-                        <img class="catGif absolute z-50 -top-20 left-0 size-20" src="./src/img/gif2.gif" alt="gif">
-                        <div class="rounded-2xl p-4 bg-white w-full shadow-2xl relative z-10">
-                            <p id="catFact" class="text-center text-purple-800">Clique no botão abaixo para gerar um fato sobre gatos.</p>
-                        </div> 
+        <section class="flex w-full flex-col items-center">
+            <img
+                class="relative top-0.5 left-30 size-40 md:-left-20"
+                src="./src/img/gif1.gif"
+                alt="gif"
+            >
+
+            <div class="flex flex-col items-center justify-center">
+                <img
+                    id="catImage"
+                    class="rounded-2xl border-8 border-white shadow-2xl sm:size-[80%] md:size-[60%]"
+                    src="https://cataas.com/cat"
+                    alt="Imagem bixano"
+                >
+
+                <div class="flex flex-col items-center justify-center gap-5">
+                    <div class="relative w-full">
+                        <img
+                            class="catGif absolute -top-20 left-0 z-50 size-20"
+                            src="./src/img/gif2.gif"
+                            alt="gif"
+                        >
+
+                        <div class="relative z-10 w-full rounded-2xl bg-white p-4 shadow-2xl">
+                            <p id="catFact" class="text-center text-purple-800">
+                                Clique no botão abaixo para gerar um fato sobre gatos.
+                            </p>
+                        </div>
                     </div>
-                    <button id="next" class="bg-(--main-color) hover:bg-(--hover-color) active:bg-(--active-color) text-white font-bold px-4 py-1 border-4 border-white cursor-pointer rounded-lg shadow-2xl" style="--main-color:#E58BFF;--hover-color:#D367FF;--active-color:#BC13FF;">Novo Fato</button>
+
+                    <button
+                        id="next"
+                        class="cursor-pointer rounded-lg border-4 border-white bg-(--main-color) px-4 py-1 font-bold text-white shadow-2xl hover:bg-(--hover-color) active:bg-(--active-color)"
+                        style="--main-color:#E58BFF;--hover-color:#D367FF;--active-color:#BC13FF;"
+                    >
+                        Novo Fato
+                    </button>
                 </div>
             </div>
         </section>
-        <img class="absolute size-120 -z-10 bottom-0 right-6" src="./src/img/bg.webp" alt="">
+
+        <img
+            class="absolute right-6 bottom-0 -z-10 size-120"
+            src="./src/img/bg.webp"
+            alt=""
+        >
+
     </div>
+    <script type="module" src="./src/js/script.js"></script>
 </body>
-
-<script type="module" src="./src/js/script.js"></script>
-
 </html>
+```
