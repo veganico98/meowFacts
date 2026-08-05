@@ -18,3 +18,17 @@
 #next:active {
     transform: translateY(0) scale(0.97);
 }
+
+.loading{
+    animation: pulse 1s infinite;
+    opacity: .6;
+}
+
+@keyframes pulse {
+    0%, 100%{
+        opacity: .6;
+    }
+    50%{
+        opacity: 1;
+    }
+}
