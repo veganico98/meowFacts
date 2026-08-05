@@ -1,5 +1,3 @@
-export default function initTranslate(){}
-
 export function getTranslate(texto){
     fetch(`https://api.mymemory.translated.net/get?q=${texto}&langpair=en|pt-BR`)
         .then(response => response.json())

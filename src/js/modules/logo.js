@@ -1,4 +1,4 @@
-export default function initLogo(){}
+export default function initLogo(){
 
     function getLogo(){
         fetch('./src/json/logo.json')
@@ -11,11 +11,8 @@ export default function initLogo(){}
             const hoverColor = body[random].hoverColor;
             const activeColor = body[random].activeColor;
             const btnNext = document.querySelector('#next');
-            console.log(imageId);
             const logo = document.querySelector('#logo');
             
-            
-            console.log(logo)
             logo.src = `./src/img/logo/${imageId}.png`;
             logo.style.setProperty('--shadow-color', color);
             btnNext.style.setProperty('--main-color', color);
@@ -24,4 +21,6 @@ export default function initLogo(){}
 
         })
     }
-getLogo()
+    getLogo()
+    
+}

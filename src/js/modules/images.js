@@ -1,7 +1,7 @@
 import { getFact } from "./facts.js";
 import { getTranslate } from "./translate.js";
 
-export default function initImages(){}
+export default function initImages(){
 
 const btnNext = document.querySelector('#next');
 
@@ -17,3 +17,5 @@ function getImage(){
 }
 
 btnNext.addEventListener('click', getImage)
+
+}

@@ -16,3 +16,7 @@ body {
         radial-gradient(circle at 15% 20%, rgba(229, 139, 255, 0.16), transparent 40%),
         radial-gradient(circle at 85% 80%, rgba(255, 139, 139, 0.14), transparent 45%);
 }
+
+.class{
+    color: #796301;
+}

@@ -4,19 +4,41 @@
         "color": "#3d1c00",
         "hoverColor": "#2e1703",
         "activeColor": "#1b0e02"
-
     },
     {
         "id": "2",
         "color": "#ff8b8b",
         "hoverColor": "#e96767",
         "activeColor": "#c05454"
-
     },
     {
         "id": "3",
         "color": "#E58BFF",
         "hoverColor": "#D367FF",
         "activeColor": "#BC13FF"
+    },
+    {
+        "id": "4",
+        "color": "#42ee4a",
+        "hoverColor": "#40b946",
+        "activeColor": "#308b34"
+    },
+    {
+        "id": "5",
+        "color": "#60dcf1",
+        "hoverColor": "#4bb3c5",
+        "activeColor": "#3c98a8"
+    },
+    {
+        "id": "6",
+        "color": "#f09143",
+        "hoverColor": "#c77532",
+        "activeColor": "#a35a1e"
+    },
+    {
+        "id": "7",
+        "color": "#b8980a",
+        "hoverColor": "#9e8309",
+        "activeColor": "#796301"
     }
 ]
