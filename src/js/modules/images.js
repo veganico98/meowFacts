@@ -13,9 +13,11 @@ function getImage(){
         const catDiv = document.querySelector('#catImage');
         catDiv.src = blobUrl
     })
-    .then(resume => getFact())
 }
 
-btnNext.addEventListener('click', getImage)
+btnNext.addEventListener('click', () =>{
+    getImage(),
+    getFact()
+})
 
 }
